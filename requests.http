@@ -1,11 +1,11 @@
 ###
-POST http://localhost:3000/api/scores HTTP/1.1
+POST https://http-nodejs-production-0dd3.up.railway.app/api/scores HTTP/1.1
 Content-Type: application/json
 
 {
-    "name":"Nathali",
-    "score":1500
+    "name":"Rodrigo",
+    "score":100
 }
 
 ###
-GET http://localhost:3000/api/scores HTTP/1.1
+GET https://http-nodejs-production-0dd3.up.railway.app/api/scores HTTP/1.1
