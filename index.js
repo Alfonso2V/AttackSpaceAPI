@@ -16,5 +16,5 @@ mongoose.connect(process.env.MONGODB_URI)
     .catch(() => console.log(error))
 
 //Ruta obtener score
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send('API para obtener scores y subir scores a la base de datos en el juego attack space. Desarrollado por AlfonsoV'))
 app.listen(port, () => console.log(`Servidor corriendo en el puerto ${port}!`))
